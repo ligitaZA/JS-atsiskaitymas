@@ -22,7 +22,7 @@
   text-transform: uppercase;
 }
 
-form {
+form, #output {
   max-width: 80%;
   margin: 50px auto;
   display: flex;
@@ -51,6 +51,18 @@ form {
   background-color: #000;
   color: #fff;
 }
+#output {
+  flex-direction: column;
+  height: 250px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  justify-content: center;
+}
+p{
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -59,7 +71,11 @@ form {
   }
 
   #search,
-  #submit-btn {
+  #submit-btn,p {
     font-size: 2em;
   }
+  #output {
+    height: 300px;
+  }
+
 }
