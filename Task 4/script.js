@@ -26,6 +26,5 @@ fetch(ENDPOINT)
       });
       html += `</ul></div>`;
     });
-    // Display the HTML in the output element
     document.getElementById("output").innerHTML = html;
   });
