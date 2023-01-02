@@ -39,7 +39,8 @@
   padding: 25px;
   gap: 10px;
   margin: 10px;
-  width: 200px;
+  width: 400px;
+  
 }
 li {
   padding: 5px;
@@ -52,6 +53,7 @@ h2{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  height: fit-content;
 }
 
 
