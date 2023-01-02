@@ -18,8 +18,8 @@ class Movie {
   }
 }
 
+//check
 const movie = new Movie ('Harry Potter and the Half-Blood Prince', 'David Yates', 250000000);
-
 console.log(movie.title);
 console.log(movie.director);
 console.log(movie.budget);
