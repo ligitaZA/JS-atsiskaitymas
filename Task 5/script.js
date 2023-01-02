@@ -21,5 +21,7 @@ const users = [
 ];
 
 const filterDogOwners = users => users.filter(user => user.hasDog);
+console.log(filterDogOwners(users));
 
 const filterAdults = users => users.filter(user => user.age >= 18);
+console.log(filterAdults(users))
